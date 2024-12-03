@@ -422,3 +422,32 @@ a .uil {
         right: 20px;
     }
 }
+
+.button1 {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 2;
+    height: 50px;
+    transition: all 200ms linear;
+    border-radius: 4px;
+    width: 220px;
+    letter-spacing: 1px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    border: 1px;
+    /*background-color: transparent;*/
+    /*background-color: #ffeba7;*/
+    cursor: pointer;
+    /*color: transparent;*/
+    color: darkslategrey;
+    box-shadow: 0 12px 35px 0 rgba(255,235,167,.15);
+}
